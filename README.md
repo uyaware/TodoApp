@@ -1,7 +1,8 @@
 # 📝 Todo Management Application (Intern Developer Test)
 Đây là ứng dụng Quản lý công việc (Todo List) được xây dựng phục vụ cho bài test tuyển dụng vị trí Intern Developer. Dự án tập trung vào việc tối ưu hóa chất lượng mã nguồn, tổ chức thư mục khoa học, xử lý dữ liệu chặt chẽ từ Frontend đến Backend và sẵn sàng cho môi trường production.  
 
-## 🌐 Triển khai trực tuyến (Deployment)Ứng dụng hiện đã được triển khai online trên môi trường Production để tiện cho việc đánh giá trực quan:  
+## 🌐 Triển khai trực tuyến (Deployment)
+`Xin vui lòng đợi 15p để ứng dụng khởi chạy (vì sử dụng Render Free tier nên backend tự đóng sau một khoảng thời gian không có kết nối)`:  
 - **Link Ứng dụng (Frontend):** https://todo-nine-green-83.vercel.app/
 - **Link API (Backend):** https://todoapp-kqb8.onrender.com/v1/api/todos
 
