@@ -1,6 +1,6 @@
 const { default: mongoose } = require("mongoose")
 
-const connectStr = 'mongodb://localhost:27017/shopDev'
+const connectStr = process.env.MONGODB_URI
 
 class Database {
     constructor() {

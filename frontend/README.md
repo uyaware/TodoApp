@@ -1,16 +1,24 @@
-# React + Vite
+## 🚀 Hướng dẫn cài đặt & Chạy ứng dụng local
+### 1. Yêu cầu hệ thống
+- **Node.js:** Phiên bản v22.x.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- **Backend:** Đảm bảo API Backend đang chạy tại http://localhost:5000/v1/api (hoặc cấu hình lại URL tương ứng).
 
-Currently, two official plugins are available:
+### 2. Cài đặt các gói phụ thuộc (Dependencies)
+Di chuyển vào thư mục dự án và chạy lệnh sau để cài đặt các thư viện cần thiết (lucide-react, sonner, zod...):
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```Bash
+npm install
+```
+### 3. Khởi chạy môi trường Phát triển (Development)
+Chạy lệnh sau để khởi động ứng dụng ở môi trường local:
 
-## React Compiler
+```Bash
+npm run dev
+```
+Sau đó, truy cập đường dẫn hiển thị trên terminal http://localhost:5173 để trải nghiệm ứng dụng.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+--- 
+## API Documentation
+Chi tiết các endpoint và cấu trúc dữ liệu được cập nhật tại các file sau:
+* [Tài liệu API (Todo Task)](../backend/docs/todo_api.md)
