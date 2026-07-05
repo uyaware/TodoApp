@@ -31,4 +31,7 @@
 Để xem chi tiết cách cài đặt môi trường, cấu hình .env cũng như cách build từng phần bằng CLI truyền thống, vui lòng truy cập vào file README.md riêng biệt nằm trong từng thư mục:  
 - **Frontend:** [Xem tại thư mục frontend](./frontend/README.md)
 - **Backend:** [Xem tại thư mục backend](./backend/README.md)
+## Author
+- **Name**: Tran Uy
+- **Email**: tranuyqhc1@gmail.com
 
